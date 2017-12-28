@@ -1,0 +1,110 @@
+body {
+  background-color: #B4A0D5;
+  font-family: Bree Serif;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 40px;
+  text-shadow: rgb(255, 255, 255) 4px 0px 0px, rgb(255, 255, 255) 3.87565px 0.989616px 0px, rgb(255, 255, 255) 3.51033px 1.9177px 0px, rgb(255, 255, 255) 2.92676px 2.72656px 0px, rgb(255, 255, 255) 2.16121px 3.36588px 0px, rgb(255, 255, 255) 1.26129px 3.79594px 0px, rgb(255, 255, 255) 0.282949px 3.98998px 0px, rgb(255, 255, 255) -0.712984px 3.93594px 0px, rgb(255, 255, 255) -1.66459px 3.63719px 0px, rgb(255, 255, 255) -2.51269px 3.11229px 0px, rgb(255, 255, 255) -3.20457px 2.39389px 0px, rgb(255, 255, 255) -3.69721px 1.52664px 0px, rgb(255, 255, 255) -3.95997px 0.56448px 0px, rgb(255, 255, 255) -3.97652px -0.432781px 0px, rgb(255, 255, 255) -3.74583px -1.40313px 0px, rgb(255, 255, 255) -3.28224px -2.28625px 0px, rgb(255, 255, 255) -2.61457px -3.02721px 0px, rgb(255, 255, 255) -1.78435px -3.57996px 0px, rgb(255, 255, 255) -0.843183px -3.91012px 0px, rgb(255, 255, 255) 0.150409px -3.99717px 0px, rgb(255, 255, 255) 1.13465px -3.8357px 0px, rgb(255, 255, 255) 2.04834px -3.43574px 0px, rgb(255, 255, 255) 2.83468px -2.82216px 0px, rgb(255, 255, 255) 3.44477px -2.03312px 0px, rgb(255, 255, 255) 3.84068px -1.11766px 0px, rgb(255, 255, 255) 3.9978px -0.132717px 0px;
+  color: #6441a5;
+}
+
+h1:hover {
+  color: white;
+  cursor: default;
+  text-shadow: rgb(100, 65, 165) 4px 0px 0px, rgb(100, 65, 165) 3.87565px 0.989616px 0px, rgb(100, 65, 165) 3.51033px 1.9177px 0px, rgb(100, 65, 165) 2.92676px 2.72656px 0px, rgb(100, 65, 165) 2.16121px 3.36588px 0px, rgb(100, 65, 165) 1.26129px 3.79594px 0px, rgb(100, 65, 165) 0.282949px 3.98998px 0px, rgb(100, 65, 165) -0.712984px 3.93594px 0px, rgb(100, 65, 165) -1.66459px 3.63719px 0px, rgb(100, 65, 165) -2.51269px 3.11229px 0px, rgb(100, 65, 165) -3.20457px 2.39389px 0px, rgb(100, 65, 165) -3.69721px 1.52664px 0px, rgb(100, 65, 165) -3.95997px 0.56448px 0px, rgb(100, 65, 165) -3.97652px -0.432781px 0px, rgb(100, 65, 165) -3.74583px -1.40313px 0px, rgb(100, 65, 165) -3.28224px -2.28625px 0px, rgb(100, 65, 165) -2.61457px -3.02721px 0px, rgb(100, 65, 165) -1.78435px -3.57996px 0px, rgb(100, 65, 165) -0.843183px -3.91012px 0px, rgb(100, 65, 165) 0.150409px -3.99717px 0px, rgb(100, 65, 165) 1.13465px -3.8357px 0px, rgb(100, 65, 165) 2.04834px -3.43574px 0px, rgb(100, 65, 165) 2.83468px -2.82216px 0px, rgb(100, 65, 165) 3.44477px -2.03312px 0px, rgb(100, 65, 165) 3.84068px -1.11766px 0px, rgb(100, 65, 165) 3.9978px -0.132717px 0px;
+}
+
+.logoImg {
+  width: 60px;
+  height: auto;
+  border-radius: 30%;
+}
+
+.onlineIcon {
+  width: 30px;
+  height: auto;
+  margin-top: 25%;
+}
+
+#results {
+  max-width: 390px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 15px 13px 32px -5px rgba(0,0,0,0.66);
+  margin-bottom: 40px;
+}
+
+.resultBox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.resultBox:hover {
+  background-color: #C4B5DE;
+}
+
+#searchBox {
+  max-width: 390px;
+}
+
+#tabs {
+  max-width: 390px;
+  margin-top: 40px;
+  margin-bottom: -10px;
+  cursor: pointer;
+  max-height: 48px;
+}
+
+.tab {
+  border-radius: 40px;
+  max-height: 20px;
+  position: relative;
+  border-radius: 200px 200px 0px 0px;
+  border: 0px solid #000000;
+}
+
+span {
+  font-size: 15px;
+  position: relative;
+  top: -12px;
+  left: -3px;
+  color: black;
+}
+
+#allButton {
+  background-color: white;
+  border-radius: 200px 200px 0px 0px;
+}
+
+#onButton {
+  background-color: #6441a5;
+}
+
+#offButton {
+  background-color: #6441a5;
+}
+
+input {
+  border-radius: 10px;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+#span1 {
+  color: #6441a5;
+}
+
+#span2 {
+  color: white;
+}
+
+#span3 {
+  color: white;
+}
+
+a:hover, a:active, a:visited, a:link {
+    color: #6441a5;
+}
