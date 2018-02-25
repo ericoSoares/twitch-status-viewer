@@ -1,4 +1,4 @@
-var channelList = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "mrrikemat", "RobotCaleb", "noobs2ninjas", "johnnyboi_i", "summit1g", "medrybw"];
+var channelList = ["ESL_SC2", "OgamingSC2", "freecodecamp", "mrrikemat", "johnnyboi_i", "summit1g", "medrybw"];
 var streamData;
 var channelUrl = "";
 var url = "";
